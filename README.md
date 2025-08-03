@@ -48,7 +48,7 @@ automated-book-workflow/
 git clone https://github.com/tejashree-2002/automated-book-workflow.git
 cd automated-book-workflow
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 bash
 Copy
 Edit
