@@ -21,40 +21,21 @@ This project streamlines the process of preparing book chapters using AI. It aut
 
 ---
 
-## 📁 Project Structure
-
-automated-book-workflow/
-│
-├── main.py # Main pipeline script
-├── requirements.txt # Python dependencies
-│
-├── content/
-│ └── chapter1.txt # Sample chapter file to rewrite
-│
-├── ai_agents/
-│ ├── writer.py # Gemini AI content rewriter
-│ ├── reviewer.py # OpenAI-based reviewer
-│ ├── human_review.py # Simulated human-in-the-loop
-│ ├── reward_model.py # RL-style reward evaluator
-│ └── chroma_store.py # ChromaDB vector version store
-
----
-
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repo
+1. Clone the Repo
 
 ```bash
 git clone https://github.com/tejashree-2002/automated-book-workflow.git
 cd automated-book-workflow
 
-#### 2. Install Dependencies
+2. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
 
-### 3. Set API Keys
+3. Set API Keys
 Create a .env file in the root:
 
 ini
@@ -70,7 +51,7 @@ Edit
 export OPENAI_API_KEY=your_openai_key
 export GEMINI_API_KEY=your_gemini_key
 
-### 4. Add Chapter Input
+4. Add Chapter Input
 Place your .txt files (e.g., chapter1.txt) inside the /content folder.
 
 🚀 Running the Pipeline
