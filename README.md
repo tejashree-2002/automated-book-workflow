@@ -38,7 +38,6 @@ automated-book-workflow/
 │ ├── reward_model.py # RL-style reward evaluator
 │ └── chroma_store.py # ChromaDB vector version store
 
-
 ---
 
 ## ⚙️ Setup Instructions
@@ -49,12 +48,13 @@ automated-book-workflow/
 git clone https://github.com/tejashree-2002/automated-book-workflow.git
 cd automated-book-workflow
 
-2. Install Dependencies
+### 2. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Set API Keys
+
+### 3. Set API Keys
 Create a .env file in the root:
 
 ini
@@ -69,7 +69,8 @@ Copy
 Edit
 export OPENAI_API_KEY=your_openai_key
 export GEMINI_API_KEY=your_gemini_key
-4. Add Chapter Input
+
+### 4. Add Chapter Input
 Place your .txt files (e.g., chapter1.txt) inside the /content folder.
 
 🚀 Running the Pipeline
@@ -77,6 +78,7 @@ bash
 Copy
 Edit
 python main.py
+
 📝 Output Preview
 Rewritten chapter is printed to the console
 
